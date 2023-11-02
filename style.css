@@ -1,23 +1,33 @@
+body{
+    background-color: antiquewhite;
+    
+}
+
 .grid {
     position: absolute;
+    inset: 0;
+    margin: auto;
     width: 560px;
     height: 300px;
     border: 3px solid black;
-    margin-top: 80px;
+    
 }
 
 .block {
     position: absolute;
     width: 100px;
     height: 20px;
-    background-color: blue;
+    background-color: burlywood;
+    border: 1px solid black;
 }
 
 .user {
     position: absolute;
     width: 100px;
     height: 20px;
-    background-color: purple;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .ball {
@@ -25,5 +35,13 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: red;
+    background-image: linear-gradient(lightpink,salmon);
+}
+
+#score{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
